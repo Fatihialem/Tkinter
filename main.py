@@ -152,7 +152,7 @@ def username_password_control():
         lbl_deleted_regist = Label(Screen, text="Deleted Registration No")
         lbl_deleted_regist.place(relx=x + 0.43, rely=y + 0.67)
         entry_deleted_regist = Entry(Screen, borderwidth=5)
-        entry_deleted_regist.place(relx=x + 0.58, rely=y + 0.67, relwidth=width - 0.1)
+        entry_deleted_regist.place(relx=x + 0.58, rely=y + 0.66, relwidth=width - 0.1)
         # Deleted Registration Information
 
         btn_delete = Button(Screen, text="DELETE", bg="gray", fg="white", command=delete)
